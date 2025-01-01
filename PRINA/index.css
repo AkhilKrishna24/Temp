@@ -33,21 +33,21 @@ body {
   font-style: normal;
   display: inline;
 }
-.commingsoon .Timer {
+.commingsoon .timer {
   margin: 100px;
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-.commingsoon .Timer > div {
+.commingsoon .timer > div {
   margin: 20px;
   padding: 20px;
 }
-.commingsoon .Timer > div span {
+.commingsoon .timer > div span {
   display: block;
 }
-.commingsoon .Timer p {
+.commingsoon .timer p {
   font-size: 1rem;
 }
 p {
