@@ -17,6 +17,39 @@ body {
   background-color: #1d1e22;
   font-size: 16px;
 }
+.commingsoon {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.commingsoon p {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+  display: inline;
+}
+.commingsoon .Timer {
+  margin: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.commingsoon .Timer > div {
+  margin: 20px;
+  padding: 20px;
+}
+.commingsoon .Timer > div span {
+  display: block;
+}
+.commingsoon .Timer p {
+  font-size: 1rem;
+}
 p {
   text-align: center;
   font-size: 2.5rem;
@@ -99,44 +132,11 @@ span {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-      transparent 0,
-      transparent 20px,
-      #dc143c 0,
-      #dc143c 25px,
-      transparent 0,
-      transparent 100%
-    ),
-    radial-gradient(
-      transparent 0,
-      transparent 20px,
-      #dc143c 0,
-      #dc143c 25px,
-      transparent 0,
-      transparent 100%
-    ),
-    radial-gradient(
-      transparent 0,
-      transparent 20px,
-      #3cb371 0,
-      #3cb371 25px,
-      transparent 0,
-      transparent 100%
-    ),
-    radial-gradient(
-      transparent 0,
-      transparent 20px,
-      #3cb371 0,
-      #3cb371 25px,
-      transparent 0,
-      transparent 100%
-    ),
-    #fde4e3;
-  /*   ,
-  linear-gradient(135deg, #5bf2f5 5%, #5bf2f5 15%); */
+  background: url("./img/gift_w1.svg");
+  /*linear-gradient(135deg, #5bf2f5 5%, #5bf2f5 15%);*/
 
   background-blend-mode: multiply;
-  background-size: 80px 80px;
+  background-size: 75px 50px;
   background-position: 40px 40px, 40px 0, 0 0, 0 40px;
   border: 1.5px solid black;
 }

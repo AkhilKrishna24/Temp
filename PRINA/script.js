@@ -8,7 +8,7 @@ function changeGift() {
     5: { emoji: "💎", text: "sparkling compliments for your beauty" },
     6: { emoji: "☕", text: "cozy coffee dates" },
     7: { emoji: "🌷", text: "tulips as fresh as you" },
-    8: { emoji: "🎨", text: "beautiful colors that remind me of you"},
+    8: { emoji: "🎨", text: "beautiful colors that remind me of you" },
     9: { emoji: "💌", text: "heartfelt letters" },
     10: { emoji: "🎁", text: "thoughtful gifts" },
     11: { emoji: "🌙", text: "moonlit nights to dream of you" },
